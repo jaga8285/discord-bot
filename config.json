@@ -1,0 +1,6 @@
+{
+  "prefix": "<<",
+  "template": "https://{cred}flare.tangerina.org/lab16/src/episodes/NGE/NeonGenesisEvangelionEp{ep}_480p.mkv",
+  "currentEpisode": 6,
+  "color": "#1E359C"
+}
