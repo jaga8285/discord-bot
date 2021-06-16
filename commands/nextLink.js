@@ -6,7 +6,7 @@ const applyTemplate = require(path.join(__dirname+'/../lib/applyTemplate.js'));
 
 module.exports = {
   name: 'nextlink',
-  description: 'Takes one argument n (default 1). '+
+  description: 'Takes one argument n (default 2). '+
   'Get next n episodes links',
   usage: config.prefix+ 'nextlink 2',
   alias: ['l', 'nl', 'link'],

@@ -6,7 +6,7 @@ const applyTemplate = require(path.join(__dirname+'/../lib/applyTemplate.js'));
 
 module.exports = {
   name: 'catchup',
-  description: 'Takes one argument n (default 1). '+
+  description: 'Takes one argument n (default 2). '+
   'Get previous n episodes links',
   usage: config.prefix+ 'catchup 2',
   alias: ['c', 'cu'],
