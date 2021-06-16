@@ -36,10 +36,13 @@ client.once('ready', () => {
 const prefix = config.prefix;
 
 client.on('message', (message)=>{
-  if (!message.content.startsWith(prefix) || message.author.bot) return;
   if (message.content == 'estou na zona') {
     message.channel.send('com os rapazes');
   }
+	if (message.content == 'eles não podem breezy') {
+		message.channel.send('😢');
+	}
+  if (!message.content.startsWith(prefix) || message.author.bot) return;
   let args = message.content.slice(prefix.length).trim().split(/ +/);
   const command = args.shift().toLowerCase();
 
