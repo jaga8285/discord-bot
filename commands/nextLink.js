@@ -21,7 +21,8 @@ module.exports = {
     const newEmbed = new Discord.MessageEmbed()
         .setTitle(`Currently on Episode ${config.currentEpisode}`)
         .addField('Links', episodeList)
-        .setColor(config.color);
+        .setColor(config.color)
+        .setThumbnail('https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/cf4e3cf73353496b14e14688baba726e09889d10ccc8c588dd7db36bc058b8df._V_SX402_.jpg');
     message.channel.send(newEmbed);
   },
 };
