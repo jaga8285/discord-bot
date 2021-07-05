@@ -16,7 +16,7 @@ module.exports = {
     // eslint-disable-next-line max-len
     for (let i = Math.max(config.currentEpisode - nEpisodes, 1); i < config.currentEpisode; i++) {
       episodeList = episodeList + `[Episode ${i}](` +
-      applyTemplate(config.currentEpisode-i) + ')\n';
+      applyTemplate(i) + ')\n';
     }
     const newEmbed = new Discord.MessageEmbed()
         .setTitle('Catching up')
